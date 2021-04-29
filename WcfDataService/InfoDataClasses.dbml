@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="NBNData" Class="InfoDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=VAIO;Initial Catalog=NBNData;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="NBNDataConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.AuthorizationData" Member="AuthorizationDatas">
+    <Type Name="AuthorizationData">
+      <Column Name="RowID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MyAPIKey" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MySecret" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MyUserId" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MyAccessToken" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MyPublicToken" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TradDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
